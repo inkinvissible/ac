@@ -8,7 +8,7 @@ body {
 main,
 footer {
   padding-top: 95px;
-  background-color: #152238; }
+  background-color: #0e4062; }
 
 h1 {
   display: flex;
@@ -17,7 +17,7 @@ h1 {
   margin-bottom: 80px; }
 
 h2 {
-  color: #eb5f74;
+  color: #f50101;
   margin-bottom: 35px; }
 
 h4 {
@@ -45,7 +45,7 @@ ul {
   font-size: 15px;
   overflow: hidden;
   transition: 0.2s;
-  border: 1px solid #eb5f74;
+  border: 1px solid #f50101;
   border-radius: 10px; }
 
 .btnNeon:hover {
@@ -63,16 +63,18 @@ nav {
   padding: 0 5%;
   height: 100px;
   width: 100%;
-  background-color: #152238; }
+  background-color: #0e4062; }
 
 nav .logo {
+  max-width: 200px;
   float: left;
-  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
   font-size: 24px;
   color: #fff; }
+  nav .logo img {
+    max-width: 200px; }
 
 nav .links {
   float: right;
@@ -222,6 +224,9 @@ nav .icon-burger .line {
   opacity: 1;
   transition: bottom ease-in-out 0.4s; }
 
+#trabajo .carrusel {
+  height: 20%; }
+
 .formContacto {
   height: 50vh; }
 
@@ -245,7 +250,7 @@ nav .icon-burger .line {
   grid-template-rows: 50px 50px; }
 
 .centrarForm {
-  background-color: #eb5f74;
+  background-color: #f50101;
   padding: 10px; }
 
 .formMensaje {
@@ -255,9 +260,9 @@ nav .icon-burger .line {
 .btnDefaultContacto {
   margin-top: 10px;
   padding: 10px;
-  border: 2px solid #152238;
+  border: 2px solid #0e4062;
   text-decoration: none;
-  color: #152238;
+  color: #0e4062;
   background-color: white;
   transition: all 0.5s ease-in-out; }
 
@@ -289,7 +294,7 @@ form p label {
   padding: 1em; }
 
 .contactForm {
-  background: #eb5f74;
+  background: #f50101;
   width: 1fr;
   margin: 10px 0 0 10px; }
 
@@ -326,7 +331,7 @@ form p label {
 
 .contactForm form button:hover,
 .contactForm form button:focus {
-  background: #eb5f74;
+  background: #f50101;
   color: #fff;
   transition: background-color 1s ease-out;
   outline: 0; }
@@ -355,7 +360,7 @@ form p label {
   color: white; }
 
 .contactInfo a {
-  color: #eb5f74;
+  color: #f50101;
   font-weight: 800; }
 
 /* LARGE SIZE */
@@ -385,7 +390,7 @@ form p label {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #eb5f74;
+  color: #f50101;
   text-align: center;
   margin: 0; }
 
@@ -395,13 +400,13 @@ form p label {
 
 .footer .iconFooter {
   margin-top: 10px;
-  border: 2px solid #eb5f74;
-  color: #eb5f74;
+  border: 2px solid #f50101;
+  color: #f50101;
   border-radius: 200px;
   padding: 10px;
   margin-left: 10px; }
   .footer .iconFooter.iconFooter:hover {
-    background-color: #eb5f74;
+    background-color: #f50101;
     color: white; }
 
 .footer div p img {

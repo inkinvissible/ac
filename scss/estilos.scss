@@ -7,8 +7,8 @@ body {
   max-width: 100%;
 }
 
-$rojo: #eb5f74;
-$azul: #152238;
+$rojo: #f50101;
+$azul: #0e4062;
 $felgrau: #4B6858;
 $blanco: white;
 
@@ -90,14 +90,18 @@ nav {
   background-color: $azul;
 }
 
+
 nav .logo {
+  max-width: 200px;
   float: left;
-  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
   font-size: 24px;
   color: #fff;
+  img{
+    max-width: 200px;
+  }
 }
 
 nav .links {
@@ -290,7 +294,12 @@ nav .icon-burger .line {
   opacity: 1;
   transition: bottom ease-in-out 0.4s;
 }
-
+//trabajo
+#trabajo{
+  .carrusel{
+    height: 20%;
+  }
+}
 //Contacto
 .formContacto {
   height: 50vh;
